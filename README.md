@@ -2,6 +2,8 @@
  
 This is the corresponding Repository to my project on Interactive Learning. It was created for the course MLNLP2 taught by Stefano Teso.
 
+My goal was to find out how different query strategies help to reach more accurate models in the absence of data.
+
 ### Task 
 > Choose a subset of query strategies from the modal active learning library and compare how well they perform for a shallow classifier (e.g., logistic regression) trained on MNIST.
 
