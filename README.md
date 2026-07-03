@@ -1,15 +1,16 @@
 # NLP II: Interactive Learning
  
-This is the corresponding Repository to my project on Interactive Learning. It belongs to the course MLNLP2 taught by Stefano Teso.
+This is the corresponding Repository to my project on Interactive Learning. It was created for the course MLNLP2 taught by Stefano Teso.
 
 ### Task 
-> Choose a subset of query strategies from the modal active learning library and compare how well they perform for a shallow classifier (e.g., logistic regression) trained on MNIST and optionally for a deep neural network (e.g., a CNN with few hidden layers) trained on a reasonable subset of CIFAR 10.
+> Choose a subset of query strategies from the modal active learning library and compare how well they perform for a shallow classifier (e.g., logistic regression) trained on MNIST.
 
 ---
 # Installation
-- I used a venv and can only test it on Windows. In case it doesn't work, feel free to write me a Mail (lukas.weber@studenti.unitn.it)
-- Install with the "requirements.txt" file in the repo with "pip install -r requirements.txt"
+- Install the environment, described in the "requirements.txt" file.
+- Install with `pip install -r requirements.txt`
 ---
+
 ## Additional notes:
 - "Shallow classifier" describes the file in which the Logistic Regression models are trained. They are used in the report. "Deep classifier" describes the CNN files which are not used in the paper but left in the repo for further experiments. 
 - Upon installing the environment, a file has to be changed because modAL does not work with the numpy version that it recommends: The modAL expected_error_reduction 
